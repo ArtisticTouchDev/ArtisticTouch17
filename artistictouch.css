@@ -1,0 +1,67 @@
+
+body {
+  background-color: rgb(245, 207, 240);
+}
+.titleetc {
+  display:grid;
+  grid-template-columns: 0px  1fr ;
+  
+  
+}
+.Title {
+  
+  padding-left:100px;
+  font-size:75px;
+  color:rgb(101, 8, 224);
+  text-align: center;
+
+margin-top:none;
+margin-right: 500px;
+margin-left: 340px;
+margin-bottom:none;
+}
+.Title, .whatDoWeDo,.whatwedois {
+  font-family:cursive;
+}
+.whatDoWeDo {
+  font-size:40px;
+  margin-top:0;
+  margin-bottom:10px;
+}
+.whatwedois {
+  width:750px;
+  font-size:20px;
+  margin-top:0px;
+}
+.meow {
+  width:250px;
+  
+  margin-top:none;
+  margin-left:none;
+  vertical-align: left;
+  object-fit:cover;
+  
+}
+.theimage {
+  margin-left: 70px;
+}
+.artpic {
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+}
+.pictures {
+  margin-right:15px;
+  margin-bottom:15px;
+  margin-top:15px;
+  width:350px;
+  object-fit:cover;
+  vertical-align: top;
+}
+.end {
+  text-align:center;
+  font-size:20px;
+  font-family:cursive;
+  background-color:cyan;
+  padding-top:20px;
+  padding-bottom:20px;
+}
